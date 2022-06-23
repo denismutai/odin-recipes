@@ -1,1 +1,2 @@
 # odin-recipes
+By completing this project I will have demonstrated my ability to utilize HTML boilerplate, headings, links, images and multiple page setup within a website.

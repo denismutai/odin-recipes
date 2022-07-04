@@ -1,0 +1,35 @@
+
+/* selectors practice */
+
+
+/* 
+color pallete
+Primary color- #66BFBF
+Secondary Color- #EAF6F6
+highlighting- #FF0063
+background-#FFFFFF
+*/
+
+html{
+    background-color:#FFFFFF ;
+    font-family: 'Lato', sans-serif;
+}
+
+/* type selectors */
+
+h1,
+h2{
+    color: #FF0063;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+/*
+images 
+parent-child relationship selectors
+Descendant combinators are represented using white space between selectors and will only be selected if it has ancestors (parent or grandparent) that matches the previously listed selectors.
+*/
+.main-container img{
+height: 300px;
+width:auto;
+}

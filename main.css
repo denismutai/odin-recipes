@@ -2,7 +2,9 @@ html{
     background-color: #FFF9D7;
     color: #610C63;
 }
-
+*{
+    font-family: 'Lato', sans-serif;
+}
 /* Images styles */
 img{
     margin-left: 25%;
@@ -23,4 +25,13 @@ h4{
 p{
     display: flex;
     flex-basis: 2;
+}
+
+
+/* Practice selector relationships */
+
+/* 1-Parent>child selectors */
+.container a{
+    font-weight:700 ;
+    color: yellow;
 }

@@ -30,6 +30,26 @@ parent-child relationship selectors
 Descendant combinators are represented using white space between selectors and will only be selected if it has ancestors (parent or grandparent) that matches the previously listed selectors.
 */
 .main-container img{
-height: 300px;
-width:auto;
+height: auto;
+width:100%;
 }
+
+/****************************** flexbox ************************* /
+
+/***Step 1-make the parent a flex container and descendants flex items ***/
+/* Flex container properties- flex-direction, justify-content-arrange and space items along the x-axis, align-items- arrange items along the y-axis, gap-specify the space between the items*/
+.main-container {
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.main-categories{
+    border-radius: 25px;
+    box-shadow: #EAF6F6;
+    width: 50vw;
+}
+/************** Step 2- use flex-item propeties- ******/
+
